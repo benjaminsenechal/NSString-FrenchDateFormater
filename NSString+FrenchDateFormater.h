@@ -10,4 +10,6 @@
 
 @interface NSString (FrenchDateFormater)
 
+- (NSString *)makeDateWithFormat:(NSString *)format;
+
 @end
